@@ -10,7 +10,7 @@
   <header>
       <div id="logo" style="background-color: green">
         <a href="index.html">
-          <img class="img_center" src="imagenes/logos/Extra Pet Logo.png" >    
+          <img class="img_center" src="imagenes/logos/ExtraPet_Logo.png" >    
         </a>
       </div>
       <nav id="menu">
@@ -18,14 +18,13 @@
           <li><a href="#toSection">Productos</a></li>
           <li><a href="#toNews">Novedades</a></li>
           <li><a href="#toContact">Contacto</a></li>
-          <li><a href="#">Referencia 4</a></li>
-          <li><a href="#">Referencia 5</a></li>
+          <li><a href="#toContact">Ayuda</a></li>
         </ul>
       </nav>
   </header>
 
   <article id="banner">
-    <img class="img_center" src="imagenes/banner.jpg" >
+    <img src="imagenes/banner2.jpg" >
   </article>
 
   <div id="toSection"></div>
@@ -33,16 +32,49 @@
     <table>
       <tr>
         <td>
-            <div><img class="img_publi" src="imagenes/Productos/Gato/dedal.png" ></div>
-            <div><a href="#">Cepillo dedal para gatos</a></div>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Gato/dedal.png" ></div>
+              <div class="text_center">Cepillo dedal para gatos</div>
+              <div class="text_center">$249.99</div>
+            </a>
         </td>
-        <td><img class="img_publi" src="imagenes/Productos/Gato/tijera.png" ></td>
-        <td><img class="img_publi" src="imagenes/Productos/Perro/Correa acero.png" ></td>
+        <td>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Gato/tijera.png"></div>
+              <div class="text_center">Tijera para gato/perro</div>
+              <div class="text_center">$199.99</div>
+            </a>
+        </td>
+        <td>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Perro/Correa_acero.png"></div>
+              <div class="text_center">Correa perro 5mts</div>
+              <div class="text_center">$399.99</div>
+            </a>
+        </td>
       </tr>
       <tr>
-        <td><img class="img_publi" src="imagenes/Productos/Perro/Correa extensible.png" ></td>
-        <td><img class="img_publi" src="imagenes/Productos/Perro/Cuello.png" ></td>
-        <td><img class="img_publi" src="imagenes/Productos/Perro/Porta_algo.png" ></td>
+        <td>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Perro/Correa_extensible.png" ></div>
+              <div class="text_center">Correa extensible 5mts</div>
+              <div class="text_center">$419.50</div>
+            </a>
+        </td>
+        <td>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Perro/Cuello.png"></div>
+              <div class="text_center">Collar perro Star-rock</div>
+              <div class="text_center">$99.99</div>
+            </a>
+        </td>
+        <td>
+            <a href="#toSection">
+              <div><img class="img_publi" src="imagenes/Productos/Perro/Porta_algo.png"></div>
+              <div class="text_center">Porta bolsitas</div>
+              <div class="text_center">$115</div>
+            </a>
+        </td>
       </tr>
     </table>
   </article>
@@ -57,19 +89,40 @@
 
   <div id="toContact"></div>
   <article id="contact">
-    <h2>Contacto</h2>
-  <p>Nuestros productos son bla bla bla... pero la segunda parte!</p>
+    <form method="POST" action="#">
+      <h2>Contacto</h2>
+      <label for="nomcompleto">Nombre Completo</label>
+      <input type="text" id="nomcompleto" name="nombrecompleto" placeholder="Ingrese su nombre y apellido">
+      
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="mailcontacto" placeholder="Ingrese su mail">
+
+      <label for="consulta">Consulta</label>
+      <textarea id="consulta" name="consultacontacto" placeholder="Ingrese su consulta" style="height:200px"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+      <nav id="social">
+        <ul>
+          <li>
+            <a href="www.facebook.com.ar">
+              hola
+            </a>
+          </li>
+          <li>
+            <a href="www.twitter.com.ar">
+              hola
+            </a>
+          </li>
+          <li>
+            <a href="www.instagram.com.ar">
+              hola
+            </a>
+          </li>
+        </ul>
+      </nav>
+
   </article>
-
-
-  <footer id="pie">Contacto: Calle Falsa 123
-    <nav id="footer_Social">
-      <ul>
-        <li><a class="facebook" href="www.facebook.com.ar"></a></li>
-        <li><a href="#">Gatos</a></li>
-      </ul>
-    </nav>
-  </footer>
-
 </body>
 </html>
