@@ -4,7 +4,7 @@ body{
 	width: 100%;
 	height: 1990px;
 	margin:0;
-	background-image: url("imagenes/background.jpg");
+	background-image: url("imagenes/banner.jpg");
   	font-stretch: ultra-expanded;
 	font-family: sans-serif;
 	font-weight: normal;
@@ -145,7 +145,6 @@ a {
 #section table tr td {
 	/*height: 25%;*/
 	width: 33%;
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
@@ -164,11 +163,43 @@ a {
 
 #news {
 	width: 100%;
-	height:500px;
-	
+	height:475px;
 	float:left;
-	background-color:pink;
+	padding-top: 25px;
+}
 
+#news h2 {
+	width: 96%;
+	height: 50px;
+	float:left;
+	margin: 0px;
+	padding-top: 20px;
+	padding-left: 4%;
+}
+
+#news div {
+	width: 70%;
+	height:500px;
+	float:right;
+	margin: 0px;
+}
+
+#news div p {
+	width: 22%;
+	height:400px;
+	float:left;
+	margin: 0px;
+	padding-left: 3%;
+	padding-right: 5%;
+	padding-top: 30px;
+	font-size: 22px;
+}
+
+#news div div {
+	width: 70%;
+	height:400px;
+	float:right;
+	margin: 0px;
 }
 
 #toContact {
@@ -184,7 +215,7 @@ a {
 }
 
 #contact form {
-	width: 55%;
+	width: 80%;
 	height:540px;
 	float:left;
 	display: block;
